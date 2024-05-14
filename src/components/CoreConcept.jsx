@@ -1,6 +1,6 @@
 import React from "react";
 
-function CoreConcepts({ image, title, description }) {
+function CoreConcept({ image, title, description }) {
   return (
     <div>
       <img src={image} />
@@ -10,4 +10,4 @@ function CoreConcepts({ image, title, description }) {
   );
 }
 
-export default CoreConcepts;
+export default CoreConcept;
